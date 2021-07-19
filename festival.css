@@ -1,0 +1,115 @@
+h1{
+	color:#fa9200;
+	/*font-family:fantasy; */
+	margin-top: 20px;
+	margin-bottom: 36px;
+}
+h1:hover{
+	color:black;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	margin-bottom: 29px;
+	transition:all ease 0.5s;
+	/*transition-duration: 1s;*/
+}
+h2{
+	color:white;
+	margin-left: 106px;
+	/*font-family:verdana;*/
+	font-size: 32px;
+}
+h2:hover{
+	
+	color:#fa9200;
+	cursor:pointer;
+	transition-duration: 0.5s;
+}
+ .swiper-container {
+      
+    background-color: purple;
+	height: 100vh;
+	/*opacity:0.7;*/
+	/*border:3px solid black;*/
+	padding:20px;
+	justify-content: center;
+	background-image: url('https://www.gujarattourism.com/\2f content\2f dam\2fgujrattourism\2fimages\2fother-images\2f fair-fastival-2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+      }
+      .inside {
+        margin: 20px auto;
+        height: 65vh;
+        width: 70vw;
+        /*border: 3px solid black;*/
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        animation: 10s slider infinite;
+        /*padding:4px;*/
+      }
+      .left {
+       
+        height: 100%;
+        width: 42%;
+        /*border:2px solid red;*/
+        padding: 20px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .right {
+        height: 100%;
+        width: 58%;
+        /*border:2px solid red;*/
+      }
+      .right img {
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 19px;
+      }
+      .swiper-slide {
+       /* text-align: center;
+        font-size: 18px;
+        background: purple;
+        /* Center slide text vertically */
+        
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-button-next{
+      	color:white;
+      	margin-right: 45px;
+      	/*border:2px solid white;*/
+      	font-size: 80px;
+      }
+      .swiper-button-prev{
+      	color:white;
+      	margin-left: 45px;
+      	/*border:2px solid white;*/
+
+      }
+      .swiper-button-prev:hover{
+      	color:#c0aee0;
+      }
+
+      	.swiper-button-next:hover{
+      	color:#c0aee0;
+      }
